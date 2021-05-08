@@ -21,7 +21,7 @@ namespace Bhaskara
                 Console.Write("\tDigite o valor de c: ");
                 convercao = Double.TryParse(Console.ReadLine(), out num3);
                 D = Math.Pow(num2,2) - (4 * num * num3);
-                if (D > 0)
+                if (D >= 0)
                 {
                     double raiz = Math.Sqrt(D);
                     Console.WriteLine ($"\tO valor de DELTA é : {D} e sua raiz² é : {raiz} ");
